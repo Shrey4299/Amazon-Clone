@@ -1,0 +1,43 @@
+.checkout{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    height: max-content;
+}
+
+.checkout__title{
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #d3d3d3;
+}
+.checkout__right{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    flex: 0.2;
+}
+
+.checkout__left{
+    flex: 0.8;
+}
+
+.checkout__image{
+    margin-bottom: 10px;
+    margin-top: -10px;
+    justify-content: center;
+}
+/* .checkout__image img{
+    width:327px;
+} */
+
+.checkout__leftItem{
+    background-color: white;
+}
+
+.checkout__leftItem h3{
+    padding : 10px
+}
+.checkout__ad{
+    width: 100%;
+    margin-bottom: 10px;
+}
